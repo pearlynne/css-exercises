@@ -1,0 +1,22 @@
+/* styles.css */
+
+.pink {
+    background-color: pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.pink.third {
+    font-size: 24px;
+}
+
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: rgb(117, 187, 117);
+    font-size: 24px;
+    font-weight: bold;
+}

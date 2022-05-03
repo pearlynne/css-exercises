@@ -11,6 +11,41 @@ img {
   width: 600px;
 }
 
+.left-links, .right-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
